@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
 })
 
 //let token = 'EAAEkRmhxv1YBANhcYZBNkpUZBS2S78aLTNjkCNKtDL2yuYlVi2kkcXJTRkTdEtKJrZA377L6cAon2YRh7DeoD4XcMehZBkCWjwSjA0ufY1glTiOSkcF1MuPj1BZC0SwMSSK4tIGCEwCn0QwD6AH1S2ZAxCulFZArUrhF9UoWXr7dgZDZD'
-let token = 'EAACZByI1921wBAHc55G8bQQAK3CilbPnDe6wvvEnYAqMrG7IfH8KlPKJqZAKMQsD9njhPAZAFZA0NVYTinHiByZCFazmJ9tQWHEmRVdRvfDsPL5A0b0VcJGsZBVZCCxoLVLPZAccbYfvV2vZAZAozZA7XKaOtZCB8hIWk3QHSpXh6Fo0WAZDZD'
+let token = 'EAAUWZCybKnXIBAJVlTjiwOJAQ1i60zSDuIWDnlrrVCY9sZCmA5dq91tIgZAva62ZCgAkHNZBWFbSU5OTofN4dNEerwhe2Oh6IqpENLz3P3O68lQTS3Y05IwGL0dcPtSLZCgCdQcJv4ZC7hdjGGF7Ls1ogZAIfz8CqRuD82o4sgZCtzwZDZD'
 
 app.get('/webhook/', function (req, res) {
     if (req.query['hub.verify_token'] === 'ch4tb0t') {
