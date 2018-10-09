@@ -44,5 +44,5 @@ function sendText(sender, text) {
 }
 
 app.listen(app.get('port'), function() {
-    console.log('running: ' + port)
+    console.log('running: port')
 })
