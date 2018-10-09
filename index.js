@@ -15,7 +15,8 @@ app.get('/', function (req, res) {
     res.send('Hi I\'m a chatbot')
 })
 
-let token = 'EAAEkRmhxv1YBANhcYZBNkpUZBS2S78aLTNjkCNKtDL2yuYlVi2kkcXJTRkTdEtKJrZA377L6cAon2YRh7DeoD4XcMehZBkCWjwSjA0ufY1glTiOSkcF1MuPj1BZC0SwMSSK4tIGCEwCn0QwD6AH1S2ZAxCulFZArUrhF9UoWXr7dgZDZD'
+//let token = 'EAAEkRmhxv1YBANhcYZBNkpUZBS2S78aLTNjkCNKtDL2yuYlVi2kkcXJTRkTdEtKJrZA377L6cAon2YRh7DeoD4XcMehZBkCWjwSjA0ufY1glTiOSkcF1MuPj1BZC0SwMSSK4tIGCEwCn0QwD6AH1S2ZAxCulFZArUrhF9UoWXr7dgZDZD'
+let token = 'EAACZByI1921wBAHc55G8bQQAK3CilbPnDe6wvvEnYAqMrG7IfH8KlPKJqZAKMQsD9njhPAZAFZA0NVYTinHiByZCFazmJ9tQWHEmRVdRvfDsPL5A0b0VcJGsZBVZCCxoLVLPZAccbYfvV2vZAZAozZA7XKaOtZCB8hIWk3QHSpXh6Fo0WAZDZD'
 
 app.get('/webhook/', function (req, res) {
     if (req.query['hub.verify_token'] === 'ch4tb0t') {
