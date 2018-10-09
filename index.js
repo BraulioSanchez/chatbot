@@ -24,7 +24,7 @@ app.get('/webhook/', function(req, res) {
     res.send('Wrong token')
 })
 
-app.post('/webhook/', function(req, res) {
+/*app.post('/webhook/', function(req, res) {
     let messaging_events = req.body.entry[0].messaging
     for(let i = 0; i<messaging_events.length; i++) {
         let event = messaging_events[i]
@@ -41,7 +41,7 @@ function sendText(sender, text) {
     let messageData = {text: text}
     request({
     })
-}
+}*/
 
 app.listen(app.get('port'), function() {
     console.log('running: port')
